@@ -8,7 +8,7 @@ const currentyear = new Date().getFullYear();
         const seconds = document.getElementById("seconds");
         const countDown = document.getElementById("countdown");
         const currentYear = new Date().getFullYear();
-        const newYearTime = new Date(`April 4 ${currentYear} 14:00:00`);
+        const newYearTime = new Date(`January 14 ${currentYear} 10:00:00`);
 
         function play() {
             audio.play();
